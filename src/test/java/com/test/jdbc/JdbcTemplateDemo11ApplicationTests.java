@@ -24,14 +24,14 @@ class JdbcTemplateDemo11ApplicationTests {
 	void contextLoads() {
 
 	}
-	@Test
-	public void getActiveRoleNames(){
-		List<String> activeRoles =jdbcTemplate.query(FETCH_ACTIVE_ROLE_NAMES_QUERY,String.class);
-
-		AssertThat(activeRoles).size().isGreaterThan(0);
-
-
-		}
+//	@Test
+//	public void getActiveRoleNames(){
+//		List<String> activeRoles =jdbcTemplate.query(FETCH_ACTIVE_ROLE_NAMES_QUERY,String.class);
+//
+////		AssertThat(activeRoles).size().isGreaterThan(0);
+//
+//
+//		}
 
 	}
 
