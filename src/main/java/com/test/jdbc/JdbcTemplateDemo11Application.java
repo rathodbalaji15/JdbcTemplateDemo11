@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class JdbcTemplateDemo11Application {
+	private int id;
+	private String name;
 
 	public static void main(String[] args) {
 		SpringApplication.run(JdbcTemplateDemo11Application.class, args);
